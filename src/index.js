@@ -1,6 +1,5 @@
 import dotenv from "dotenv";
-dotenv.config();  // Load env variables before anything else
-
+dotenv.config(); 
 import mongoose from "mongoose";
 import { DB_NAME } from "./constants.js";
 import connectDB from "./db/index.js";
